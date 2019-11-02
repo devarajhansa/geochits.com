@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+
+<title>GEO CHITS PRIVATE LIMITED</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+
+<link href="css/menu.css" type="text/css" media="all" rel="stylesheet" />
+
+	
+
+<script src="js/jquery-1.6.3.min.js"></script>
+
+<script src="js/jquery.easing.1.3.js"></script>
+
+<script src="js/jquery.animate-colors-min.js"></script>
+
+<script src="js/jquery.skitter.js"></script>
+
+
+
+<script>
+
+$(document).ready(function() {
+
+	
+
+	var options = {};
+
+
+
+	if (document.location.search) {
+
+		var array = document.location.search.split('=');
+
+		var param = array[0].replace('?', '');
+
+		var value = array[1];
+
+		
+
+		if (param == 'animation') {
+
+			options.animation = value;
+
+		}
+
+		else if (param == 'type_navigation') {
+
+			if (value == 'dots_preview') {
+
+				$('.border_box').css({'marginBottom': '40px'});
+
+				options['dots'] = true;
+
+				options['preview'] = true;
+
+			}
+
+			else {
+
+				options[value] = true;
+
+				if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+
+			}
+
+		}
+
+	}
+
+	
+
+	$('.box_skitter_large').skitter(options);
+
+	
+
+	$(".prev_button").css({ opacity: 0.8 });
+
+	$(".next_button").css({ opacity: 0.8 });
+
+	
+
+});
+
+</script>
+
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+
+	<div class="wrapper-box">
+
+		<div class="inner-wrapper">
+
+			<div class="header">
+
+				<div class="logo"><a href="index.html"><img src="images/logo1.png" /></a></div>
+<div class="enq"><a href="contact.html"><img src="images/send1.png"></a></div>
+				
+
+			</div>
+
+			<div class="menu">
+
+				<ul id="nav">
+
+					<li><a href="index.html">Home</a></li>
+
+					<li><a href="about-us.html">About Us</a></li>
+
+					<li><a href="services.html">Service</a></li>
+                    
+                    			<li><a href="subscriber.html">Subscriber</a></li>
+                    			
+                    			<li><a href="contact.html">Contact Us</a></li>
+
+					
+
+				</ul>
+
+			</div>
+
+			<div class="banner">
+
+				<div class="box_skitter box_skitter_large">
+
+					<ul>
+
+						<li><img src="images/bans2.jpg" class="cubeStopRandom" /></li>
+
+						<li><img src="images/bans3.jpg" class="cubeRandom" /></li>
+
+						<li><img src="images/bans4.jpg" class="cubeSpread" /></li>
+
+						
+
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+
+				<div class="col1">
+
+					<h1 class="title">About Us</h1>
+                   		<p> <img src="images/img1.jpg" style="float:left; margin-right:2%;" /><strong>Geo Chits</strong> has built for itself a sterling reputation among the many chit fund companies in Coimbatore. <strong>GEO CHITS PRIVATE LIMITED</strong>, managed by a Board of Directors, was incorporated under The Companies Act 2013. The vision of our founders of providing a reliable, hassle-free and efficient means of savings for people from all walks of life, led to the formation of GEO CHITS. Market conditions around the world make it obvious how savings is no more a luxury, but an absolute necessity. </p>
+                    	<p>We take pride in our loyal clientele, thanks to our absolutely hassle-free services and our steadfast commitment to being reliable, transparent and efficient. This continues to be our biggest strength. We values result in a culture of fairness in all our dealings with customers as well as the wider community. Geo Chits firmly believes that Transparency and Quality must not be optional.  As a result, the value that a customer gets by investing in us is far beyond what he actually pays for.</p>
+                        <p>Geo chits is backed by a group of experts under the leadership of Mr. Tony George, whose family has been running successful businesses, even from the time of his grandfather Mr. K.V.Mathew, who was an agriculturist, financier, and owner of multiple businesses. 
+                        </p>
+                        <p>Our Managing Director – Mr. Tony George is at the helm of Geo Chits Private Limited. A born leader, he is blessed with sharp business acumen and keen decision making skills, balanced by a strong desire to contribute to the growth and the best interests of the community. He has over a decade of professional experience in Finance, Telecommunications and Information Technology and has been constantly delivering results par excellence.  His family has been running successful businesses for generations.
+                        </p>
+                        
+                        
+                   
+                    
+					
+
+                    
+
+					
+
+					
+				</div>
+
+				<div class="col2">
+
+					<div class="listbox">
+
+						<div class="listbox-title">Menu</div>
+
+						<ul>
+
+							<li><a href="about-us.html">About Us</a></li>
+
+							<li><a href="services.html">Service</a></li>
+
+							<li><a href="subscriber.html">Subscriber</a></li>
+
+							<li><a href="contact.html">Contact</a></li>
+							
+						
+
+							
+				
+
+						</ul>
+
+					</div>
+
+					<div class="greenbox">
+
+						<h2>Contact Us</h2><br />
+                        <p><strong>GEO CHITS PRIVATE LIMITED</strong><br />No.18, Marutha Nagar,<br />
+                        Edayarpalayam,<br />Coimbatore - 641025,<br />Tamil Nadu, India.<br />Email:tg@geochits.com<br />
+                        Phone Number:+91 9043099921 / 0422-2397975</p>
+
+						
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div><!--inner-wrapper end-->
+
+		<div class="footer">
+
+			<div class="footer-left">
+
+				<div class="ftr-social">
+
+					Social Links 
+
+					<a href="#"><img src="images/facebook.png" align="absmiddle" /></a>
+
+					<a href="#"><img src="images/twitter.png" align="absmiddle" /></a>
+
+					<a href="#"><img src="images/linkedin.png" align="absmiddle" /></a>
+
+				</div>
+
+				<p><a href="http://geochits.com">GEO CHITS PRIVATE LIMITED</a>&nbsp; Copyright 2015. All rights reserved.</a></p><br />
+
+				
+			</div>
+
+			<div class="footer-right">
+
+				<p>Powered by <a href="http://www.inwayhosting.com" target="_blank">Inway</a></p>
+
+
+			</div>
+
+		</div>
+
+	</div><!--wrapper-box end-->
+
+</div><!--wrapper end-->
+
+</body>
+
+</html>
+

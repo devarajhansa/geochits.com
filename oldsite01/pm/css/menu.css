@@ -1,0 +1,187 @@
+#nav,#nav ul {
+
+    list-style: none outside none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+#nav {
+
+    height: 40px;
+
+    list-style: none outside none;
+
+	z-index:99;
+
+	position:relative;
+
+}
+
+#nav li {
+
+    display: block;
+
+    float: left;
+
+    position: relative;
+
+	padding:0 55px;
+
+}
+
+#nav > li:last-child {
+
+	padding:0 38px;
+
+}
+
+#nav ul {
+
+    left: -9999px;
+
+    position: absolute;
+
+    top: -9999px;
+
+    z-index: 2;
+
+}
+
+#nav ul li {
+
+    background:#22e3a;
+
+	width:100%;
+
+	padding:0 15px;
+
+}
+
+#nav li:hover, #nav ul li:hover {
+
+    background:#22e3a;
+
+}
+
+#nav li a {
+
+    color: #FFFFFF;
+
+    display: block;
+
+    line-height: 40px;
+
+    outline: medium none;
+
+    text-align: left;
+
+    text-decoration: none;
+
+	text-transform:uppercase;
+
+	font-family: 'latobold';
+
+	font-size:16px;
+
+}
+
+
+
+/* keyframes #animation */
+
+@-webkit-keyframes animation {
+
+    0% {
+
+        -webkit-transform: scale(1);
+
+    }
+
+    30% {
+
+        -webkit-transform: scale(1.2);
+
+    }
+
+    100% {
+
+        -webkit-transform: scale(1.1);
+
+    }
+
+}
+
+@-moz-keyframes animation {
+
+    0% {
+
+        -moz-transform: scale(1);
+
+    }
+
+    30% {
+
+        -moz-transform: scale(1.2);
+
+    }
+
+    100% {
+
+        -moz-transform: scale(1.1);
+
+    }
+
+}
+
+#nav li > a:hover {
+
+    /* CSS3 animation */
+
+    -webkit-animation-name: animation;
+
+    -webkit-animation-duration: 0.3s;
+
+    -webkit-animation-timing-function: linear;
+
+    -webkit-animation-iteration-count: 1;
+
+    -webkit-animation-direction: normal;
+
+    -webkit-animation-delay: 0;
+
+    -webkit-animation-play-state: running;
+
+    -webkit-animation-fill-mode: forwards;
+
+
+
+    -moz-animation-name: animation;
+
+    -moz-animation-duration: 0.3s;
+
+    -moz-animation-timing-function: linear;
+
+    -moz-animation-iteration-count: 1;
+
+    -moz-animation-direction: normal;
+
+    -moz-animation-delay: 0;
+
+    -moz-animation-play-state: running;
+
+    -moz-animation-fill-mode: forwards;
+
+}
+
+#nav li:hover ul {
+
+    left: 0;
+
+    top: 40px;
+
+    width: 150px;
+
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+
+<title>GEO CHITS PRIVATE LIMITED</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+
+<link href="css/menu.css" type="text/css" media="all" rel="stylesheet" />
+
+	
+
+<script src="js/jquery-1.6.3.min.js"></script>
+
+<script src="js/jquery.easing.1.3.js"></script>
+
+<script src="js/jquery.animate-colors-min.js"></script>
+
+<script src="js/jquery.skitter.js"></script>
+
+
+
+<script>
+
+$(document).ready(function() {
+
+	
+
+	var options = {};
+
+
+
+	if (document.location.search) {
+
+		var array = document.location.search.split('=');
+
+		var param = array[0].replace('?', '');
+
+		var value = array[1];
+
+		
+
+		if (param == 'animation') {
+
+			options.animation = value;
+
+		}
+
+		else if (param == 'type_navigation') {
+
+			if (value == 'dots_preview') {
+
+				$('.border_box').css({'marginBottom': '40px'});
+
+				options['dots'] = true;
+
+				options['preview'] = true;
+
+			}
+
+			else {
+
+				options[value] = true;
+
+				if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+
+			}
+
+		}
+
+	}
+
+	
+
+	$('.box_skitter_large').skitter(options);
+
+	
+
+	$(".prev_button").css({ opacity: 0.8 });
+
+	$(".next_button").css({ opacity: 0.8 });
+
+	
+
+});
+
+</script>
+
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+
+	<div class="wrapper-box">
+
+		<div class="inner-wrapper">
+
+			<div class="header">
+
+				<div class="logo"><a href="index.html"><img src="images/logo1.png" /></a></div>
+<div class="enq"><a href="contact.html"><img src="images/send1.png"></a></div>
+				<!--<div class="social">
+
+					Social Links<br />
+
+					<a href="#"><img src="images/facebook.png" /></a>
+
+					<a href="#"><img src="images/twitter.png" /></a>
+
+					<a href="#"><img src="images/linkedin.png" /></a>
+
+				</div>-->
+
+			</div>
+
+			<div class="menu">
+
+				<ul id="nav">
+
+					<li><a href="index.html">Home</a></li>
+
+					<li><a href="about-us.html">About Us</a></li>
+
+					<li><a href="services.html">Service</a></li>
+                    
+                    <li><a href="subscriber.html">Subscriber</a></li>
+					
+
+					<li><a href="contact.html">Contact Us</a></li>
+
+					
+
+				</ul>
+
+			</div>
+
+			<div class="banner">
+
+				<div class="box_skitter box_skitter_large">
+
+					<ul>
+
+						<li><img src="images/bans2.jpg" class="cubeStopRandom" /></li>
+
+						<li><img src="images/bans3.jpg" class="cubeRandom" /></li>
+
+						<li><img src="images/bans4.jpg" class="cubeSpread" /></li>
+
+							
+
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="container">
+
+				<div class="col1">
+
+					<h1 class="title">Welcome to Geo Chits Private Limited</h1>
+                    <p> <img src="images/img.jpg" style="float:left; margin-right:2%;" /><strong>GEO CHITS PRIVATE LIMITED</strong> is a Private Company incorporated on 06 June 2014. It is classified as Indian Non-Government Company and is registered at Registrar of Companies, Coimbatore. The registration Number is 020464.  <br /><br />Geo Chits business intention is that your hard earned money is safe and we at Geo are the trustworthy, the safe and the reliable companion to help you reap maximum benefits from investing in chits. The activities of the company are monitored by government officials through the chit fund Act of 1982. <br /><br /> <strong>Investing - </strong> This is a lifelong process. The sooner you start; the better off you'll be in the long run. It's best to start saving and investing as soon as you start earning money. The discipline and skills you learn will benefit you for the rest of your life. But no matter how old you are when you start thinking seriously about saving and investing, it's never too late to begin. Plan your finances such that you meet every contingent expense without feeling pressured. <br /><br /><strong>Borrowing -</strong>  A chit is the only financial product that allows you to save and borrow. Be smart; avoid the pitfalls of borrowing at exorbitant costs from money lenders and other financial channels. Borrow at lower rates with lesser hassles. <br /><br />  It is registered under the Chit Fund Acts, 1982.
+                    </p>
+<!--<h1 class="title">Features: </h1>
+<div class="link">
+<ul>
+<li>Fresh </li>
+<li>Organic </li>
+<li>High nutritional value</li>
+</ul><br /><br /><br /><br /><br />
+</div>
+
+                   
+
+					<!--<p><h1>Header 1</h1><h2>Header 2</h2><h3>Header 3</h3></p>
+
+					<p><a href="#"><img src="images/learn-more-green.png" /></a></p>
+
+					<p><a href="#"><img src="images/learn-more-grey.png" /></a></p>-->
+
+				</div>
+
+				<div class="col2">
+
+					<div class="listbox">
+
+						<div class="listbox-title">Menu</div>
+
+						<ul>
+
+							<li><a href="about-us.html">About Us</a></li>
+
+							<li><a href="services.html">Service</a></li>
+
+							<li><a href="subscriber.html">Subscriber</a></li>
+
+							<li><a href="contact.html">Contact</a></li>
+
+							
+				
+
+						</ul>
+
+					</div>
+
+				<!--	<div class="greenbox">
+
+						<h2>Contact Us</h2><br />
+                        
+
+						
+
+					</div>-->
+
+				</div>
+
+			</div>
+			
+
+		</div><!--inner-wrapper end-->
+
+		<div class="footer">
+
+			<div class="footer-left">
+
+				<div class="ftr-social">
+
+					Social Links 
+
+					<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" align="absmiddle" /></a>
+
+					<a href="https://www.linkedin.com/" target="_blank"><img src="images/twitter.png" align="absmiddle" /></a>
+
+					<a href="https://twitter.com/" target="_blank"><img src="images/linkedin.png" align="absmiddle" /></a>
+
+				</div>
+
+				<p><a href="http://geochits.com">GEO CHITS PRIVATE LIMITED</a>&nbsp; Copyright 2015. All rights reserved.</p><br />
+
+				
+			</div>
+
+			<div class="footer-right">
+
+				Powered by <a href="http://www.inway.in" target="_blank">Inway</a></p>
+
+
+			</div>
+
+		</div>
+
+	</div><!--wrapper-box end-->
+
+</div><!--wrapper end-->
+
+</body>
+
+</html>
+
